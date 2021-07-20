@@ -32,4 +32,14 @@ public class CageImpl implements Cage {
     public boolean isVacantCage() {
         return isVacantCage;
     }
+
+    @Override
+    public String toString() {
+        return "CageImpl{" +
+                "number=" + number +
+                ", area=" + area +
+                ", condition=" + condition.isAvailableFor() +
+                ", isVacantCage=" + isVacantCage +
+                '}';
+    }
 }

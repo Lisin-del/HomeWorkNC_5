@@ -1,12 +1,14 @@
 package Zoo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ConditionImpl implements Condition {
     private List<Species> isAvailableFor;
 
-    public ConditionImpl(List<Species> isAvailableFor) {
-        this.isAvailableFor = isAvailableFor;
+    public ConditionImpl(Species species) {
+        this.isAvailableFor = new ArrayList<>();
+        this.isAvailableFor.add(species);
     }
 
     @Override

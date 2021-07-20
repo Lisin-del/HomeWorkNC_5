@@ -1,3 +1,5 @@
+package Zoo;
+
 import Zoo.Species;
 
 import java.util.Date;
@@ -36,7 +38,7 @@ public class InhibitionLog {
 
     @Override
     public String toString() {
-        return "InhibitionLog{" +
+        return "Zoo.Zoo.InhibitionLog{" +
                 "checkInDate=" + checkInDate +
                 ", checkOutDate=" + checkOutDate +
                 ", animalSpecies=" + animalSpecies +

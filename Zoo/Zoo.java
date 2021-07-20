@@ -1,4 +1,5 @@
-import Zoo.Animal;
+package Zoo;
+
 import java.util.List;
 
 public interface Zoo {

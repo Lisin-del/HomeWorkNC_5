@@ -1,12 +1,12 @@
 package Zoo;
 
 public class AnimalImpl implements Animal {
-    private String name;
     private Species species;
+    private String name;
 
-    public AnimalImpl(String name, Species species) {
-        this.name = name;
+    public AnimalImpl(Species species, String name) {
         this.species = species;
+        this.name = name;
     }
 
     @Override
